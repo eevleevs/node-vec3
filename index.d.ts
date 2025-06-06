@@ -127,7 +127,7 @@ export class Vec3 {
   modulus(other: Vec3): Vec3;
 
   /**
-   *  Return the angle between another vector and this one
+   *  Return the angle in rad between another vector and this one
    */
   angleTo(other: Vec3): number;
 
